@@ -26,7 +26,7 @@
     <a href="index.html">Início</a> › Contato
   </div>
 
-  <h2 class="titulo-secao">💬 Fala comigo!</h2>
+  <h2 class="titulo-secao"> Fala comigo!</h2>
   <div class="linha-laranja"></div>
 
   <p style="color:#666; margin-bottom:2rem; line-height:1.65; max-width:580px;">
@@ -36,7 +36,7 @@
   <div class="formulario">
 
     <h3 style="color:#c0552a; margin-bottom:1.5rem; font-family:'Pacifico', cursive; font-size:1.2rem;">
-      Enviar mensagem 🍳
+      Enviar mensagem 
     </h3>
 
     <div class="campo">
@@ -93,12 +93,12 @@
     const assunto  = document.getElementById("assunto").value;
     const mensagem = document.getElementById("mensagem").value.trim();
 
-    if (!nome)     { alert("Coloca seu nome antes de enviar 😊"); return; }
+    if (!nome)     { alert("Coloca seu nome antes de enviar "); return; }
     if (!assunto)  { alert("Seleciona um assunto pra mensagem."); return; }
     if (!mensagem) { alert("Escreve sua mensagem antes de enviar!"); return; }
 
     const texto =
-      `Oi Lua! Sou *${nome}* e entrei em contato pelo seu site 🍳\n\n` +
+      `Oi Lua! Sou *${nome}* e entrei em contato pelo seu site \n\n` +
       `*Assunto:* ${assunto}\n\n` +
       `*Mensagem:*\n${mensagem}`;
 
